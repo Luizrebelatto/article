@@ -1,0 +1,23 @@
+{
+  "source": "s3://physionet-open/ptb-xl/1.0.3/",
+  "version": "1.0.3",
+  "destination": "/Users/luizgabriel/Documents/ChatGPT/article/data/raw/ptb-xl",
+  "started_at": "2026-09-21T01:06:56.921332+00:00",
+  "finished_at": "2026-09-21T01:09:38.766939+00:00",
+  "download_exit_code": 0,
+  "files_found": 43606,
+  "ecgs_in_metadata": 21799,
+  "ecgs_available": 21799,
+  "header_files": 21799,
+  "signal_files": 21799,
+  "missing_files": 0,
+  "corrupt_files": 0,
+  "invalid_metadata_paths": 0,
+  "bytes_downloaded": 552392957,
+  "records500_files": 0,
+  "checksums_expected": 43605,
+  "checksums_validated": 43605,
+  "checksum_mismatches": 0,
+  "status": "complete",
+  "failures": []
+}

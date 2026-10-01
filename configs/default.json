@@ -1,0 +1,32 @@
+{
+  "data": {
+    "manifest_path": "data/manifests/cohort.parquet",
+    "horizon_days": 365,
+    "minimum_followup_days": 365,
+    "require_sinus_rhythm": true
+  },
+  "signal": {
+    "lead_order": ["I", "II", "III", "aVR", "aVL", "aVF", "V1", "V2", "V3", "V4", "V5", "V6"],
+    "target_fs": 100,
+    "duration_seconds": 10.0,
+    "bandpass_low_hz": 0.5,
+    "bandpass_high_hz": 40.0,
+    "clip_millivolts": 5.0,
+    "normalization_mean": null,
+    "normalization_std": null
+  },
+  "training": {
+    "seed": 2026,
+    "batch_size": 32,
+    "epochs": 30,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "early_stopping_patience": 6,
+    "threshold_objective": "youden_j"
+  },
+  "artifacts": {
+    "model_dir": "artifacts/model",
+    "predictions_path": "outputs/predictions/test_predictions.parquet",
+    "figures_dir": "outputs/figures"
+  }
+}

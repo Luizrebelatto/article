@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-09-21T12:52:56.413312+00:00",
+  "source": "PTB-XL",
+  "version": "1.0.3",
+  "sampling_rate": 100,
+  "records": 21799,
+  "patients": 18869,
+  "purpose": "auxiliary representation/exploration; not future-AF prediction",
+  "official_folds": {
+    "train": "1-8",
+    "validation": "9",
+    "test": "10"
+  },
+  "predictive_cohort_validated": false,
+  "future_outcome_definition": null
+}

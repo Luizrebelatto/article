@@ -1,0 +1,18 @@
+{
+  "fold_counts": {
+    "1": 2175,
+    "2": 2181,
+    "3": 2192,
+    "4": 2174,
+    "5": 2174,
+    "6": 2173,
+    "7": 2176,
+    "8": 2173,
+    "9": 2183,
+    "10": 2198
+  },
+  "patients_across_multiple_folds": 0,
+  "critical_pass": true,
+  "future_outcome_available": false,
+  "predictive_export_allowed": false
+}

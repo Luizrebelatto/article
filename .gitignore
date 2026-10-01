@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.jupyter/
+*.egg-info/
+*.py[cod]
+.DS_Store
+data/private/
+data/raw/
+artifacts/model/model.pt
+artifacts/model/metadata.json
+outputs/predictions/*.parquet
+outputs/figures/*.png
+outputs/figures/*.json

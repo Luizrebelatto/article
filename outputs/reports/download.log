@@ -1,0 +1,3 @@
+
+[2026-09-21T01:06:56.922158+00:00] aws s3 sync s3://physionet-open/ptb-xl/1.0.3/ /Users/luizgabriel/Documents/ChatGPT/article/data/raw/ptb-xl --no-sign-request --exclude records500/* --only-show-errors
+[2026-09-21T01:07:32.202720+00:00] exit_code=0

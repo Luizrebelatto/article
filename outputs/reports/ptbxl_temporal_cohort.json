@@ -1,0 +1,18 @@
+{
+  "status": "exploratory_only",
+  "endpoint": "subsequent_ptbxl_ecg_af_annotation",
+  "clinical_incidence_validated": false,
+  "records": 1323,
+  "patients": 1323,
+  "class_counts": {
+    "0": 1270,
+    "1": 53
+  },
+  "splits": {
+    "train": 793,
+    "test": 265,
+    "validation": 265
+  },
+  "horizon_days": 365,
+  "censoring_rule": "negative requires a subsequent ECG within the horizon; missing follow-up is indeterminate"
+}

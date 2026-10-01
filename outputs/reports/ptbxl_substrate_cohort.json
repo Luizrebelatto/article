@@ -1,0 +1,17 @@
+{
+  "status": "retrospective_substrate_proxy",
+  "endpoint": "sinus_ecg_patient_af_afl_history",
+  "clinical_paroxysmal_prediction_validated": false,
+  "records": 15035,
+  "patients": 15035,
+  "class_counts": {
+    "0": 14899,
+    "1": 136
+  },
+  "splits": {
+    "train": 9021,
+    "test": 3007,
+    "validation": 3007
+  },
+  "selection": "one sinus ECG per patient; positive if any AFIB/AFLT annotation anywhere in PTB-XL patient records"
+}
